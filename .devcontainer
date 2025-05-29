@@ -1,4 +1,4 @@
-ADME at: https://github.com/devcontainers/templates/tree/main/src/debian
+README at: https://github.com/devcontainers/templates/tree/main/src/debian
 {
   "name": "Development",
   "image": "mcr.microsoft.com/devcontainers/typescript-node:latest",
