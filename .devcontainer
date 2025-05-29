@@ -1,1 +1,16 @@
-.
+ADME at: https://github.com/devcontainers/templates/tree/main/src/debian
+{
+  "name": "Development",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "postCreateCommand": "yarn install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
